@@ -17,7 +17,7 @@ body{
 
 .container{
     margin-top: 2em;
-    width: 50vw;
+    width: 30vw;
     height: 60vh;
     display: grid;
     grid-template-rows: 1fr 1fr 3fr;
@@ -63,5 +63,25 @@ gap: 5px;
     .box:last-child{
         background-color: rgb(179, 46, 46);
     }
+
+.hide{
+    visibility: hidden;
+}
+
+.danger{
+    border: 1px solid red;
+}
+
+@media screen and (max-width: 1020px) {
+    .container{
+        width: 50vh;
+    }
+    .boxes{
+        margin-top: 20px;
+    }
+    .title{
+        font-size: 2em;
+    }
+}
 
 
