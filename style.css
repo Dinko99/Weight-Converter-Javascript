@@ -33,6 +33,7 @@ input{
     border-radius: 3px;
     border: none;
     padding: 7px;
+    width: 100%;
 }
 
 .boxes{
@@ -68,13 +69,10 @@ gap: 5px;
     visibility: hidden;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1030px) {
     .container{
-        width: 50vh;
-    }
-    .boxes{
-        margin-top: 20px;
-    }
+        width: 40vw;
+    } 
     .title{
         font-size: 2em;
     }
